@@ -91,9 +91,9 @@ public:
                            const char *noSensorSignalUrl, const char *ssid,
                            const char *password, int waitState);
 
-    void WaterController::waterLoop(unsigned long valveOnDuration,
-                                    int maxSensorWaitDuration, const char *noSensorSignalUrl,
-                                    const char *wifiSSID, const char *wifiPassword);
+    void waterLoop(unsigned long valveOnDuration,
+                   int maxSensorWaitDuration, const char *noSensorSignalUrl,
+                   const char *wifiSSID, const char *wifiPassword);
     // Network operations
     void sendWateringStatus(boolean status);
 
